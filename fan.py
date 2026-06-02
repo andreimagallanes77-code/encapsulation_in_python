@@ -48,6 +48,14 @@ fan2.set_on(False)
 
 print("Fan 1")
 print("Speed:", fan1.get_speed())
-print("Radius:", fan2.get_radius())  # Wrong object
+print("Radius:", fan1.get_radius())  # Wrong object
 print("Color:", fan1.get_color())
 print("On:", fan1.get_on())
+
+print("")
+
+print("Fan 2")
+print("Speed:", fan2.get_speed())
+print("Radius:", fan2.get_radius())
+print("Color:", fan2.get_color())
+print("On:", fan2.get_on())
