@@ -45,3 +45,9 @@ fan2.set_speed(Fan.MEDIUM)
 fan2.set_radius(5)
 fan2.set_color("blue")
 fan2.set_on(False)
+
+print("Fan 1")
+print("Speed:", fan1.get_speed())
+print("Radius:", fan2.get_radius())  # Wrong object
+print("Color:", fan1.get_color())
+print("On:", fan1.get_on())
