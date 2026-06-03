@@ -13,4 +13,10 @@ class Car:
 
     def get_speed(self):
         return self.__speed
-    
+
+    def set_year_model(self, year_model):
+        self.__year_model = year_model
+
+    def set_make(self, make):
+        self.__make = make
+
