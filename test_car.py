@@ -20,3 +20,11 @@ class Car:
     def set_make(self, make):
         self.__make = make
 
+    def accelerate(self):
+        self.__speed += 8
+
+    def brake(self):
+        self.__speed -= 8
+
+
+
