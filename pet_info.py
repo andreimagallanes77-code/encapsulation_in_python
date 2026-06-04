@@ -5,11 +5,11 @@ class Pet:
         self.__animal_type = animal_type
         self.__age = age
 
-    def get_year_model(self):
-        return self.__year_model
+    def set_name(self, name):
+        self.__name = name
 
-    def get_make(self):
-        return self.__make
+    def set_animal_type(self, animal_type):
+        self.__animal_type = animal_type
 
-    def get_speed(self):
-        return self.__speed
+    def set_age(self, age):
+        self.__age = age
