@@ -28,3 +28,12 @@ pet1 = Pet()
 name = input("Enter your pet's name: ")
 animal_type = input("Enter your pet's type: ")
 age = int(input("Enter your pet's age: "))
+
+pet1.set_name(name)
+pet1.set_animal_type(animal_type)
+pet1.set_age(age)
+
+print("\nPet Information")
+print("Name:", pet1.get_name())
+print("Type:", pet1.get_animal_type())
+print("Age:", pet1.get_age())
